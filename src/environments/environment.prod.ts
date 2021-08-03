@@ -1,3 +1,10 @@
 export const environment = {
-  production: true
+  production: true,
+  certification: false,
+  up: false,
+  data: {
+    key: 'PROD-KEY',
+    url: 'https://prod/api/users',
+    detail: 'Production',
+  },
 };
